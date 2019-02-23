@@ -25,3 +25,9 @@ cheese =["cheddar","gouda","camembert"]
 arr.any? { |x| cheese.include?(x) }
 end
 
+
+def find_the_cheese(arr)
+cheese =["cheddar","gouda","camembert"]
+arr.find { |x| cheese.include?(x)} 
+
+end
